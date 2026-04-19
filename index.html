@@ -12,9 +12,8 @@
       <a-sky color="lightblue"></a-sky>
       
       <a-entity ply-model="src: wildwest.ply"position="0 -2 -2"rotation="-90 0 0"></a-entity>
-      <a-entity ply-model="src: gunsman1.ply" position="-4.5 -1.7 -1.5" rotation="-90 0 0" scale="0.2 0.2 0.2"></a-entity>
-      <a-entity ply-model="src: gunsman2.ply" position="-4.5 -1.7 1.5" rotation="-90 180 0" scale="0.2 0.2 0.2"></a-entity>
-      <a-entity ply-model="src: bulletmodel.ply position="2 2 2" rotation="0 0 0" scale = 1, 1, 1></a-entity>
+      <a-entity ply-model="src: gunsman1.ply" position="-5 -1.7 -1.5" rotation="-90 0 0" scale="0.2 0.2 0.2" animation="property: position; to: -3 -1.7 -1.5; dir: alternate; dur: 2500; loop: true; easing: linear;"></a-entity>
+      <a-entity ply-model="src: gunsman2.ply" position="-3 -1.7 0.5" rotation="-90 180 0" scale="0.2 0.2 0.2" animation="property: position; to: -5 -1.7 0.5; dir: alternate; dur: 2500; loop: true; easing: linear;" ></a-entity>
     </a-scene>
   </body>
 </html>
